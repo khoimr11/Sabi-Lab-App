@@ -125,6 +125,10 @@ input[type=color]{width:28px;height:28px;border:0;padding:0;background:none;bord
 
 .sabi-tag{margin:-8px 0 0!important;font:700 11px/1 "Archivo",sans-serif;font-stretch:125%;letter-spacing:.32em;color:#7F9BD0!important}.sabi-tag em{font-style:normal;color:var(--nezumi)}
 
+.wm-tag{font:600 12px/1 "Be Vietnam Pro",system-ui,sans-serif;color:var(--muted);padding-left:12px;margin-left:2px;border-left:1px solid var(--line);white-space:nowrap}
+@media (max-width:1180px){.wm-tag{display:none}}
+.sabi-slogan{margin:-6px 0 0!important;font:800 22px/1.15 "Be Vietnam Pro",system-ui,sans-serif;letter-spacing:-.01em;color:var(--kinari)!important}.sabi-slogan b{color:var(--hinomaru);font-weight:800}
+
 /* Studio Pro: Photoshop-style workspace. Menu bar + options bar on top, tool column left, canvas centre, Properties / Layers / History right. */
 #app{position:fixed;inset:0;display:grid;grid-template-columns:52px minmax(0,1fr) 312px;grid-template-rows:var(--topbar) 42px minmax(0,1fr) 26px;grid-template-areas:"top top top" "opts opts opts" "tools stage side" "status status side"}
 .topbar{grid-area:top}
@@ -262,7 +266,7 @@ input[type=color]{width:28px;height:28px;border:0;padding:0;background:none;bord
 <div id="app">
   <header class="topbar">
     <button class="mbrand" id="mMode" type="button" aria-haspopup="true"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjEwLjkgMTAuOSA3OC4yIDc4LjIiPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0YzRUZFNiIgc3Ryb2tlLXdpZHRoPSIzLjEiPjxsaW5lIHgxPSI1MC4wMCIgeTE9IjM2LjgwIiB4Mj0iODMuNTQiIHkyPSI1Ni4xNiIvPjxsaW5lIHgxPSI2MS40MyIgeTE9IjQzLjQwIiB4Mj0iNjEuNDMiIHkyPSI4Mi4xMyIvPjxsaW5lIHgxPSI2MS40MyIgeTE9IjU2LjYwIiB4Mj0iMjcuODkiIHkyPSI3NS45NiIvPjxsaW5lIHgxPSI1MC4wMCIgeTE9IjYzLjIwIiB4Mj0iMTYuNDYiIHkyPSI0My44NCIvPjxsaW5lIHgxPSIzOC41NyIgeTE9IjU2LjYwIiB4Mj0iMzguNTciIHkyPSIxNy44NyIvPjxsaW5lIHgxPSIzOC41NyIgeTE9IjQzLjQwIiB4Mj0iNzIuMTEiIHkyPSIyNC4wNCIvPjxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjM2LjE1IiBzdHJva2Utd2lkdGg9IjQuOSIvPjwvZz48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI3LjYiIGZpbGw9IiNFMDNDMzEiLz48L3N2Zz4=" alt="" width="28" height="28">Studio<svg class="i"><use href="#i-chev"/></svg></button>
-    <div class="brand" role="img" aria-label="Sabi Lab"><img class="wm-mon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjEwLjkgMTAuOSA3OC4yIDc4LjIiPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0YzRUZFNiIgc3Ryb2tlLXdpZHRoPSIzLjEiPjxsaW5lIHgxPSI1MC4wMCIgeTE9IjM2LjgwIiB4Mj0iODMuNTQiIHkyPSI1Ni4xNiIvPjxsaW5lIHgxPSI2MS40MyIgeTE9IjQzLjQwIiB4Mj0iNjEuNDMiIHkyPSI4Mi4xMyIvPjxsaW5lIHgxPSI2MS40MyIgeTE9IjU2LjYwIiB4Mj0iMjcuODkiIHkyPSI3NS45NiIvPjxsaW5lIHgxPSI1MC4wMCIgeTE9IjYzLjIwIiB4Mj0iMTYuNDYiIHkyPSI0My44NCIvPjxsaW5lIHgxPSIzOC41NyIgeTE9IjU2LjYwIiB4Mj0iMzguNTciIHkyPSIxNy44NyIvPjxsaW5lIHgxPSIzOC41NyIgeTE9IjQzLjQwIiB4Mj0iNzIuMTEiIHkyPSIyNC4wNCIvPjxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjM2LjE1IiBzdHJva2Utd2lkdGg9IjQuOSIvPjwvZz48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI3LjYiIGZpbGw9IiNFMDNDMzEiLz48L3N2Zz4=" alt=""><span class="wm-name" aria-hidden="true">SABI LAB</span></div>
+    <div class="brand" role="img" aria-label="Sabi Lab"><img class="wm-mon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjEwLjkgMTAuOSA3OC4yIDc4LjIiPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0YzRUZFNiIgc3Ryb2tlLXdpZHRoPSIzLjEiPjxsaW5lIHgxPSI1MC4wMCIgeTE9IjM2LjgwIiB4Mj0iODMuNTQiIHkyPSI1Ni4xNiIvPjxsaW5lIHgxPSI2MS40MyIgeTE9IjQzLjQwIiB4Mj0iNjEuNDMiIHkyPSI4Mi4xMyIvPjxsaW5lIHgxPSI2MS40MyIgeTE9IjU2LjYwIiB4Mj0iMjcuODkiIHkyPSI3NS45NiIvPjxsaW5lIHgxPSI1MC4wMCIgeTE9IjYzLjIwIiB4Mj0iMTYuNDYiIHkyPSI0My44NCIvPjxsaW5lIHgxPSIzOC41NyIgeTE9IjU2LjYwIiB4Mj0iMzguNTciIHkyPSIxNy44NyIvPjxsaW5lIHgxPSIzOC41NyIgeTE9IjQzLjQwIiB4Mj0iNzIuMTEiIHkyPSIyNC4wNCIvPjxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjM2LjE1IiBzdHJva2Utd2lkdGg9IjQuOSIvPjwvZz48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI3LjYiIGZpbGw9IiNFMDNDMzEiLz48L3N2Zz4=" alt=""><span class="wm-name" aria-hidden="true">SABI LAB</span><span class="wm-tag" aria-hidden="true">Chụp nhanh. Nhớ lâu.</span></div>
     <nav class="modes" aria-label="Chế độ"><a class="mode" href="index.html">Ảnh</a><a class="mode" href="video.html">Video</a><a class="mode" href="studio.html" aria-current="page">Studio Pro</a></nav>
     <nav class="menus" id="menus" aria-label="Menu"></nav>
     <div class="mid">
@@ -276,7 +280,7 @@ input[type=color]{width:28px;height:28px;border:0;padding:0;background:none;bord
   <nav id="tools" aria-label="Công cụ"></nav>
   <main id="stage" aria-label="Vùng làm việc"><canvas id="cv"></canvas>
     <div class="welcome" id="welcome"><div class="wcard glass">
-      <h1>Studio Pro</h1>
+      <h1>Studio Pro</h1><p class="sabi-slogan">Chụp nhanh. <b>Nhớ lâu.</b></p>
       <p>Chỉnh ảnh nhiều lớp như Photoshop: layer, mask, vùng chọn, cọ, xoá vật thể, layer điều chỉnh và xuất PSD. Mọi thứ chạy ngay trên máy bạn.</p>
       <div class="wgrid">
         <button type="button" id="wOpen">Mở ảnh<small>JPG · PNG · WEBP</small></button>
